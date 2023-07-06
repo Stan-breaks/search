@@ -1,0 +1,103 @@
+
+nav{
+    background-color: white;
+    ul{
+        list-style: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        float: right;
+        a{
+           display: block;
+           color: black;
+           text-decoration: none;
+           padding: 14px 30px;
+           text-align: center;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    
+}
+.form{
+    display: block;
+    text-align: center;
+    margin-top: 20vh;   
+}
+#text{
+    padding-left: 30px;
+    width: 500px;
+    height:60px;
+    border-radius: 100px;
+    border: 1px solid rgb(177, 171, 171);
+    outline: none;
+  }
+#text:hover{
+    box-shadow: 0 0 10px rgb(177, 171, 171);
+}
+#text:focus{
+    box-shadow: 0 0 10px rgb(177, 171, 171);
+}
+%custombtn{
+    width:150px;
+    height:40px;
+    border-radius: 100px;
+    border: 1px solid white;
+    margin: 10px;
+}
+%custombtn:hover{
+    box-shadow: 0 0 5px rgb(177, 171, 171);
+}
+#btn{
+    @extend %custombtn;
+}
+#lucky{
+    @extend %custombtn;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+h1{
+    margin-left: 30px;
+    font-size: 28px;
+    font-weight: 100;
+    color: red;
+}
+.container {
+    margin-left: 30px;
+    margin-right: auto;
+    width: fit-content;
+    form{
+        display: grid;
+        grid-template-columns: max-content auto;
+        row-gap: 20px;
+        column-gap: 50px;
+    }
+    label {
+        text-align: left;
+    }
+    input{
+        width: 300px;
+        height: 20px;
+    }
+    input:focus{
+        outline:none;
+        border: 1px solid rgb(70, 99, 180);
+    }
+}
+#mybtn{
+    background-color: rgb(71, 133, 248);
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(42, 100, 207);
+    color: white;
+    justify-self: end;
+}
+#mybtn:hover{
+    background-color: rgb(64, 127, 243);
+    border: 1px solid rgb(36, 97, 209);
+}
