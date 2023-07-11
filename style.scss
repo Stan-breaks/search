@@ -56,10 +56,6 @@ nav{
 }
 #lucky{
     @extend %custombtn;
-    a{
-        color: black;
-        text-decoration: none;
-    }
 }
 h1{
     margin-left: 30px;
