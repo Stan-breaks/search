@@ -50,8 +50,6 @@ nav li a:hover {
   border-radius: 100px;
   border: 1px solid white;
   margin: 10px;
-  background-color:rgb(177, 171, 171);
-  text-align:center;
 }
 
 #lucky:hover, #btn:hover {
